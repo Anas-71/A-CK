@@ -1,0 +1,38 @@
+#home{
+  height: 700px;
+  background-color: var(--yellow-color);
+  background-image: url("../images/main-section-image-2.jpg");
+  background-position: top; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  position: relative;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}
+
+.slogan-div {
+  position: relative;
+}
+
+.home-container h1 {
+  color: var(--blue-color);
+  font-size: 40px;
+  background: linear-gradient(
+    transparent 0% 20%,
+    var(--yellow-color) 20% 90%,
+    transparent 90% 100%
+  );
+}
+
+.home-container p {
+  position: absolute;
+  bottom: -90px;
+  font-size: 20px;
+  font-weight: 700;
+}
