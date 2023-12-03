@@ -1,6 +1,6 @@
 #home{
   height: 700px;
-  background-color: var(--yellow-color);
+  background-color: var(--lightgrey-color);
   background-image: url("../images/main-section-image-2.jpg");
   background-position: top; 
   background-repeat: no-repeat; 
